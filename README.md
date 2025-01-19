@@ -23,3 +23,6 @@ cd GLFW_GLEW_CMake_Template
 cmake -B build
 cmake --build build
 ```
+
+### Alternatively use VS Code to build the project and launch the program
+Check that configuration selected at the top of the "Run and Debug" view of Activity Bar matching your OS and hit F5. This action will also start a build
