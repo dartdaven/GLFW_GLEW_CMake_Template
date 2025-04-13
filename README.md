@@ -8,6 +8,7 @@ Dependencies are downloaded during the CMake stage of creating build files, you 
 ## Features
 - GLFW for creating windows and handling input
 - GLEW for managing OpenGL extensions
+- GLM for OpenGL ready math
 - CMake for project configuration and build management
 
 ## Getting Started

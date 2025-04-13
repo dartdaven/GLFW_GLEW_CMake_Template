@@ -29,3 +29,15 @@ FetchContent_Declare(
 add_definitions(-DGLEW_STATIC)
 
 FetchContent_MakeAvailable(GLEW)
+
+# ------ GLM ------
+FetchContent_Declare(
+    GLM
+    GIT_REPOSITORY https://github.com/g-truc/glm.git
+    GIT_TAG        1.0.1    # Specify the version you want to use
+    SOURCE_DIR     ${EXTERNAL_DIR}/GLM
+)
+
+set(GLM_TEST_ENABLE OFF CACHE BOOL "Disable GLM unit tests")
+
+FetchContent_MakeAvailable(GLM)

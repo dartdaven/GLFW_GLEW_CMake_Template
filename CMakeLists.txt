@@ -14,4 +14,4 @@ add_subdirectory(external)
 file(GLOB_RECURSE SOURCES source/*.cpp)
 
 add_executable(${EXECUTABLE_NAME} ${SOURCES})
-target_link_libraries(${EXECUTABLE_NAME} glfw libglew_static)
+target_link_libraries(${EXECUTABLE_NAME} glfw libglew_static glm)
